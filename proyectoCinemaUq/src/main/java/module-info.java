@@ -5,4 +5,6 @@ module co.uniquindio.proyectocinemauq {
 
     opens co.uniquindio.proyectocinemauq to javafx.fxml;
     exports co.uniquindio.proyectocinemauq;
+    exports co.uniquindio.proyectocinemauq.decorator;
+    opens co.uniquindio.proyectocinemauq.decorator to javafx.fxml;
 }
