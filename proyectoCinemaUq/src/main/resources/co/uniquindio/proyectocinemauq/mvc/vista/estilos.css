@@ -1,0 +1,149 @@
+.root {
+    -fx-font-family: "Segoe UI", "SansSerif";
+    -fx-font-size: 14px;
+    -fx-background-color: #F6F3EF;
+}
+
+.encabezado {
+    -fx-padding: 16 24 12 24;
+    -fx-background-color: white;
+    -fx-spacing: 6;
+    -fx-border-color: transparent transparent #E4DDD6 transparent;
+}
+
+.titulo {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #241418;
+}
+
+.subtitulo {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #241418;
+}
+
+.paso {
+    -fx-text-fill: #7A1F3D;
+    -fx-font-weight: bold;
+}
+
+.ayuda {
+    -fx-text-fill: #5C534E;
+}
+
+.grande {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #241418;
+}
+
+.tarjeta {
+    -fx-background-color: white;
+    -fx-background-radius: 12;
+    -fx-padding: 16;
+    -fx-border-color: #E4DDD6;
+    -fx-border-radius: 12;
+    -fx-spacing: 8;
+}
+
+.boton-primario {
+    -fx-background-color: #7A1F3D;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 18;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.boton-primario:hover {
+    -fx-background-color: #5E1730;
+}
+
+.boton-secundario {
+    -fx-background-color: white;
+    -fx-border-color: #7A1F3D;
+    -fx-text-fill: #7A1F3D;
+    -fx-font-size: 14px;
+    -fx-padding: 10 18;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-cursor: hand;
+}
+
+.boton-volver {
+    -fx-background-color: white;
+    -fx-border-color: #7A1F3D;
+    -fx-text-fill: #7A1F3D;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-padding: 8 14;
+    -fx-cursor: hand;
+}
+
+.boton-grande {
+    -fx-background-color: white;
+    -fx-text-fill: #241418;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 16;
+    -fx-background-radius: 12;
+    -fx-border-color: #E4DDD6;
+    -fx-border-radius: 12;
+    -fx-min-width: 240;
+    -fx-min-height: 84;
+    -fx-cursor: hand;
+    -fx-alignment: CENTER_LEFT;
+}
+
+.boton-grande:hover {
+    -fx-border-color: #7A1F3D;
+}
+
+.panel-menu {
+    -fx-background-color: #2C2428;
+    -fx-padding: 16 12 16 12;
+    -fx-spacing: 4;
+    -fx-pref-width: 230;
+}
+
+.boton-menu {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 8 12;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+    -fx-max-width: infinity;
+}
+
+.boton-menu:hover {
+    -fx-background-color: #4A333A;
+}
+
+.marca-menu {
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.scroll-limpio {
+    -fx-background-color: transparent;
+    -fx-background: #F6F3EF;
+}
+
+.scroll-limpio > .viewport {
+    -fx-background-color: #F6F3EF;
+}
+
+.campo-etiqueta {
+    -fx-font-weight: bold;
+    -fx-text-fill: #241418;
+}
+
+.leyenda-muestra {
+    -fx-min-width: 18;
+    -fx-min-height: 18;
+    -fx-background-radius: 4;
+}

@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Launcher" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="co.uniquindio.proyectocinemauq.Launcher" />
+    <module name="proyectoCinemaUq" />
+    <option name="ALTERNATIVE_JRE_PATH" value="21" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <shortenClasspath name="ARGS_FILE" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
